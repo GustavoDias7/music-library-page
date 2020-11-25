@@ -1,24 +1,30 @@
-body, h2, h3, p, button {
+body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat'; /* Google fonts*/
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     color: #e5e5e5e7;
 }
 
-ul {
-    list-style: none;
+h2, h3, p {
     margin: 0;
-    padding: 0;
 }
 
-/* LEFT-BAR / MAIN-CONTENT  */
+ul {
+    list-style-type: none;
+}
+
+i {
+    margin-right: 15px
+}
+
+/* //CONTAINER//  */
 
 .container {
     height: 100vh;
 }
 
-/* LEFT-BAR */
+/* //LEFT-BAR// */
 
 .left-bar {
     position: absolute;
@@ -52,7 +58,7 @@ ul {
     border-radius: 5px;
 }
 
-/* MAIN-CONTAINER */
+/* //MAIN-CONTAINER// */
 
 .main-content {
     width: auto;
