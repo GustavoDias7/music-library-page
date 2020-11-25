@@ -9,30 +9,34 @@
 <body>
     <section class="container">
         <aside class="left-bar">
-            <div class="profile">
-                <img src="" alt="user">
-                <p>Gustavo dias</p>
-                <button class="edit">Edit profile</button>
-            </div>
-
-            <div class="links">
-                <nav class="link">
-                    <ul>
-                        <li>Overview</li>
-                        <li>News</li>
-                        <li>Playlists</li>
-                        <li>Discover</li>
-                    </ul>
-                </nav>
-                <hr>
-                <nav class="link">
-                    <ul>
-                        <li>Dashboard</li>
-                        <li>Messages</li>
-                        <li>Notification</li>
-                        <li>Account</li>
-                    </ul>
-                </nav>
+            <div class="left-bar-content">
+                <div class="profile">
+                    <img src="assets/profile.jpg" alt="user">
+                    <div class="text">
+                        <h3>Gustavo dias</h3>
+                        <p class="edit">Edit profile</p>
+                    </div>
+                </div>
+    
+                <div class="links">
+                    <nav class="link">
+                        <ul>
+                            <li>Overview</li>
+                            <li>News</li>
+                            <li>Playlists</li>
+                            <li>Discover</li>
+                        </ul>
+                    </nav>
+                    
+                    <nav class="link">
+                        <ul>
+                            <li>Dashboard</li>
+                            <li>Messages</li>
+                            <li>Notification</li>
+                            <li>Account</li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </aside>
 
@@ -42,80 +46,110 @@
             </form>
 
             <div class="featured-playlists">
-                <h2>Featured Playlists</h2>
-                <div class="playlist">
-                    <img src="" alt="">
-                    <h3>Only STARDUST</h3>
-                    <p>24 tracks</p>
-                </div>
-                <!--  -->
-                <div class="playlist">
-                    <img src="" alt="">
-                    <h3>Only STARDUST</h3>
-                    <p>24 tracks</p>
-                </div>
-                <!--  -->
-                <div class="playlist">
-                    <img src="" alt="">
-                    <h3>Only STARDUST</h3>
-                    <p>24 tracks</p>
-                </div>
-                <!--  -->
-                <div class="playlist">
-                    <img src="" alt="">
-                    <h3>Only STARDUST</h3>
-                    <p>24 tracks</p>
-                </div>
-            </div>
-
-            <div class="profile-views">
-                <h2>Profile Views</h2>
-                <div class="albums">
-                    <img src="" alt="">
-                    <h3>Jenny Villa</h3>
-                    <p>1 day ago</p>
-                    <p>4 albums</p>
-                </div>
-                <!--  -->
-                <div class="albums">
-                    <img src="" alt="">
-                    <h3>Jenny Villa</h3>
-                    <p>1 day ago</p>
-                    <p>4 albums</p>
-                </div>
-                <!--  -->
-                <div class="albums">
-                    <img src="" alt="">
-                    <h3>Jenny Villa</h3>
-                    <p>1 day ago</p>
-                    <p>4 albums</p>
+                <h2 class="title">Featured Playlists</h2>
+                <div class="playlists scrolls">
+                    <div class="playlist">
+                        <img src="./assets/playlist1.jpg" alt="playlist-01">
+                        <h3>Only STARDUST</h3>
+                        <p>24 tracks</p>
+                    </div>
+                    <!--  -->
+                    <div class="playlist">
+                        <img src="./assets/playlist2.jpg" alt="playlist-02">
+                        <h3>Mike Vella</h3>
+                        <p>12 tracks</p>
+                    </div>
+                    <!--  -->
+                    <div class="playlist">
+                        <img src="./assets/playlist3.jpg" alt="playlist-03">
+                        <h3>The best singles s2</h3>
+                        <p>134 tracks</p>
+                    </div>
+                    <!--  -->
+                    <div class="playlist">
+                        <img src="./assets/playlist4.jpg" alt="playlist-04">
+                        <h3>Indie</h3>
+                        <p>138 tracks</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="tracks">
-                <h2>Tracks</h2>
-                <div class="track">
-                    <img src="" alt="">
-                    <h3>Mahara Bon</h3>
-                    <p>Sexy in Paris</p>
+            <div class="part-02">
+                <div class="profile-views">
+                    <h2>Profile Views</h2>
+                    <div class="album">
+                        <img src="./assets/view1.jpg" alt="">
+                        <div class="two-texts">
+                            <h3>Jenny Villa</h3>
+                            <p>1 day ago</p>
+                        </div>
+                        <p>4 albums</p>
+                    </div>
+                    <!--  -->
+                    <div class="album">
+                        <img src="./assets/view2.jpg" alt="">
+                        <div class="two-texts">
+                            <h3>Jenny Villa</h3>
+                            <p>1 day ago</p>
+                        </div>
+                        <p>4 albums</p>
+                    </div>
+                    <!--  -->
+                    <div class="album">
+                        <img src="./assets/view3.jpg" alt="">
+                        <div class="two-texts">
+                            <h3>Jenny Villa</h3>
+                            <p>1 day ago</p>
+                        </div>
+                        <p>4 albums</p>
+                    </div>
                 </div>
-                <!--  -->
-                <div class="track">
-                    <img src="" alt="">
-                    <h3>Mahara Bon</h3>
-                    <p>Sexy in Paris</p>
-                </div>
-                <!--  -->
-                <div class="track">
-                    <img src="" alt="">
-                    <h3>Mahara Bon</h3>
-                    <p>Sexy in Paris</p>
-                </div>
-                <!--  -->
-                <div class="track">
-                    <img src="" alt="">
-                    <h3>Mahara Bon</h3>
-                    <p>Sexy in Paris</p>
+    
+                <div class="tracks-container">
+                    <h2>Tracks</h2>
+                    <div class="tracks scrolls">
+                        <div class="track">
+                            <img src="./assets/track1.jpg" alt="">
+                            <h3>Mahara Bon</h3>
+                            <p>Sexy in Paris</p>
+                        </div>
+                        <!--  -->
+                        <div class="track">
+                            <img src="./assets/track2.jpg" alt="">
+                            <h3>Mahara Bon</h3>
+                            <p>Sexy in Paris</p>
+                        </div>
+                        <!--  -->
+                        <div class="track">
+                            <img src="./assets/track3.jpg" alt="">
+                            <h3>Mahara Bon</h3>
+                            <p>Sexy in Paris</p>
+                        </div>
+                        <!--  -->
+                        <div class="track">
+                            <img src="./assets/track4.jpg" alt="">
+                            <h3>Mahara Bon</h3>
+                            <p>Sexy in Paris</p>
+                        </div>
+                        <!--  -->
+                        <div class="track">
+                            <img src="./assets/track5.jpg" alt="">
+                            <h3>Mahara Bon</h3>
+                            <p>Sexy in Paris</p>
+                        </div>
+                        <!--  -->
+                        <div class="track">
+                            <img src="./assets/track6.jpg" alt="">
+                            <h3>Mahara Bon</h3>
+                            <p>Sexy in Paris</p>
+                        </div>
+                        <!--  -->
+                        <div class="track">
+                            <img src="./assets/track7.jpg" alt="">
+                            <h3>Mahara Bon</h3>
+                            <p>Sexy in Paris</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
