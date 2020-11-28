@@ -6,6 +6,10 @@ body, h2, h3, p, ul, a {
     color: #e5e5e5e7;
 }
 
+body {
+    background-color: #1A062D;
+}
+
 p, li {
     font-weight: 100;
 }
@@ -28,7 +32,7 @@ i {
 /* //LEFT-BAR// */
 
 .left-bar {
-    position: absolute;
+    position: fixed;
     width: 220px;
     height: 100vh;
     background-color: #070018;
@@ -102,10 +106,13 @@ a {
 
 .main-content {
     width: auto;
-    height: 100vh;
-    padding-left: 320px;
+    /* height: 100vh; */
+    /* margin-top: 30px; */ /* It don't work*/
+    margin-left: 220px;
+    padding-top: 50px; /* "center" */
+    padding-left: 30px;
     padding-right: 25px;
-    background-color: #1A062D;
+    /* background-color: #7c0276; */
 }
 
 /* FEATURED PLAYLISTS */
