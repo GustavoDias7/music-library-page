@@ -10,7 +10,12 @@ body {
     background-image: linear-gradient(to right, #0c001f, #2b004d);
 }
 
-p, li {
+h2 {
+
+}
+
+p {
+    font-size: .8rem;
     font-weight: 100;
 }
 
@@ -18,9 +23,17 @@ ul {
     list-style-type: none;
 }
 
+li {
+    font-weight: 100;
+}
+
 i {
     width: 16px;
-    margin-right: 16px;
+    margin-right: 9px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* //CONTAINER//  */
@@ -59,18 +72,18 @@ i {
     font-size: 1rem;
 }
 
-.left-bar p {
+/* .left-bar p {
     font-size: 1rem;
-}
+} */
 
 .left-bar p:hover {
     color: #e5e5e59f;
     cursor: pointer;
 }
 
-#edit {
+/* #edit {
     font-size: .8rem;
-}
+} */
 
 .left-bar img {
     width: 60px;
@@ -91,10 +104,6 @@ i {
 
 .link li {
     margin-bottom: 10px;
-}
-
-a {
-    text-decoration: none;
 }
 
 .left-bar a:hover {
@@ -153,6 +162,11 @@ a {
 }
 
 /* //PART-02// */
+
+.part-02 h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 /* "blue" */
 .part-02-container {
