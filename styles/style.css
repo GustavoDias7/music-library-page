@@ -112,7 +112,6 @@ a {
     padding-top: 50px; /* "center" */
     padding-left: 30px;
     padding-right: 25px;
-    /* background-color: #7c0276; */
 }
 
 /* FEATURED PLAYLISTS */
@@ -153,45 +152,75 @@ a {
     background: #230044;
 }
 
-/* PART-02 */
+/* //PART-02// */
 
-.part-02 {
+/* "blue" */
+.part-02-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
 }
 
-/* PROFILE WIEWS / ALBUMS */
+/* MAIN-GROUP-01 - "green" */
+#main-group-01 {
+    max-width: 400px;
+    min-width: 300px;
+}
 
-.album {
+/* VIEW-ITEMS - "pink" */
+.views-items {
     display: flex;
-    margin: 10px 0;
-    align-items: center;
+    margin-bottom: 15px;
 }
 
-.two-texts {
-    margin-right: 100px;
-}
-
-.profile-views img {
+/* images */
+.views-items img {
     width: 60px;
     height: 60px;
-    object-fit: cover;
-    object-position: 0% 0%;
-    margin-right: 10px; 
+    border-radius: 6%;
+    margin-right: 10px;
 }
 
-/* TRACKS */
+/* VIEW-TEXTS - "aqua" */
+.views-texts {
+    margin-right: auto;
+}
 
-.tracks {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    column-gap: 10px;
+/* ---------------------------- */
+
+/* TRACK-CONTENT - "white" */
+
+#track-content {
+    display: flex;
+    max-width: 400px;
     overflow-x: scroll;
-    max-width: 450px;
 }
 
-.track img {
+/* TRACK-ITEMS - "pink" */
+
+.track-items {
+    width: 90px;
+    height: 180px;
+    margin-right: 10px;
+}
+
+.track-items img {
     width: 80px;
     height: 80px;
-    object-fit: cover;
+    border-radius: 8%;
+    margin-right: 20px;
+}
+
+@media (max-width: 990px) {
+    #main-group-01 {
+        max-width: 500px;
+    }
+
+    #track-content {
+        max-width: 500px;
+    }
+
+    .part-02-container {
+        display: block;
+    }
 }
