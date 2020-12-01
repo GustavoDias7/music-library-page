@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/558c6718f3.js" crossorigin="anonymous"></script>
     <title>Music Library Page</title>
 </head>
+
 <body>
     <section class="container">
 
-        <!-- //LEFT-BAR// -->      
+        <!-- //LEFT-BAR// -->
         <aside class="left-bar">
             <div class="left-bar-content">
                 <div class="profile">
@@ -24,7 +27,7 @@
                         </p>
                     </div>
                 </div>
-    
+
                 <div class="links">
                     <nav class="link">
                         <ul>
@@ -54,7 +57,7 @@
                             </li>
                         </ul>
                     </nav>
-                    
+
                     <nav class="link">
                         <ul>
                             <li>
@@ -89,9 +92,9 @@
 
         <!-- //MAIN-CONTAINER// -->
         <section class="main-content">
-            <form class="main-search" action="">
+            <form action="">
                 <i class="fas fa-search"></i>
-                <input type="text" placeholder="Search artists, playlists or tracks">
+                <input type="text">
             </form>
 
             <div class="featured-playlists">
@@ -123,85 +126,107 @@
                 </div>
             </div>
 
-            <div class="part-02">
-                <div class="profile-views">
-                    <h2>Profile Views</h2>
-                    <div class="album">
-                        <img src="./assets/view1.jpg" alt="">
-                        <div class="two-texts">
-                            <h3>Jenny Villa</h3>
-                            <p>1 day ago</p>
+            <div class="part-02"> <!-- red -->
+                <div class="part-02-container"> <!-- blue -->
+
+                    <div class="main-group" id="main-group-01"> <!-- green -->
+                        <h2>Profile Views</h2>
+                        <div id="views-content"> <!-- white -->
+
+                            <div class="views-items"> <!-- pink -->
+                                <img src="./assets/view1.jpg" alt="Jenny Villa">
+                                <div class="views-texts"> <!-- aqua -->
+                                    <h3>Jenny Villa</h3>
+                                    <p>1 day ago</p>
+                                </div>
+                                <p>4 albums</p>
+                            </div>
+                            <!--  -->
+                            <div class="views-items"> <!-- pink -->
+                                <img src="./assets/view2.jpg" alt="Aquila">
+                                <div class="views-texts"> <!-- aqua -->
+                                    <h3>Aquila</h3>
+                                    <p>3 days ago</p>
+                                </div>
+                                <p>2 albums</p>
+                            </div>
+                            <!--  -->
+                            <div class="views-items"> <!-- pink -->
+                                <img src="./assets/view3.jpg" alt="This is war">
+                                <div class="views-texts"> <!-- aqua -->
+                                    <h3>This is war</h3>
+                                    <p>2 weeks ago</p>
+                                </div>
+                                <p>5 albums</p>
+                            </div>
+
                         </div>
-                        <p>4 albums</p>
                     </div>
-                    <!--  -->
-                    <div class="album">
-                        <img src="./assets/view2.jpg" alt="">
-                        <div class="two-texts">
-                            <h3>Jenny Villa</h3>
-                            <p>1 day ago</p>
+
+                    <!-- --------------------------- -->
+
+                    <div class="main-group" id="main-group-02"> <!-- green -->
+                        <h2>Tracks</h2>
+                        <div class="scrolls" id="track-content"> <!-- white -->
+                            <div class="track-items"> <!-- pink -->
+                                <img src="./assets/track1.jpg" alt="Mahara Bon">
+                                <div class="track-texts"> <!-- aqua -->
+                                    <h3>Mahara Bon</h3>
+                                    <p>Sexy in Paris</p>
+                                </div>
+                            </div>
+                            <div class="track-items"> <!-- pink -->
+                                <img src="./assets/track2.jpg" alt="Donna">
+                                <div class="track-texts"> <!-- aqua -->
+                                    <h3>Donna</h3>
+                                    <p>Pseudo-life</p>
+                                </div>
+                            </div>
+                            <div class="track-items"> <!-- pink -->
+                                <img src="./assets/track3.jpg" alt="Avven">
+                                <div class="track-texts"> <!-- aqua -->
+                                    <h3>Avven</h3>
+                                    <p>Magic</p>
+                                </div>
+                            </div>
+                            <div class="track-items"> <!-- pink -->
+                                <img src="./assets/track4.jpg" alt="Cony">
+                                <div class="track-texts"> <!-- aqua -->
+                                    <h3>Cony</h3>
+                                    <p>Living</p>
+                                </div>
+                            </div>
+                            <div class="track-items"> <!-- pink -->
+                                <img src="./assets/track5.jpg" alt="Mahara Bon">
+                                <div class="track-texts"> <!-- aqua -->
+                                    <h3>Mahara Bon</h3>
+                                    <p>Sexy in Paris</p>
+                                </div>
+                            </div>
+                            <div class="track-items"> <!-- pink -->
+                                <img src="./assets/track6.jpg" alt="Mahara Bon">
+                                <div class="track-texts"> <!-- aqua -->
+                                    <h3>Mahara Bon</h3>
+                                    <p>Sexy in Paris</p>
+                                </div>
+                            </div>
+                            <div class="track-items"> <!-- pink -->
+                                <img src="./assets/track7.jpg" alt="Mahara Bon">
+                                <div class="track-texts"> <!-- aqua -->
+                                    <h3>Mahara Bon</h3>
+                                    <p>Sexy in Paris</p>
+                                </div>
+                            </div>
                         </div>
-                        <p>4 albums</p>
                     </div>
-                    <!--  -->
-                    <div class="album">
-                        <img src="./assets/view3.jpg" alt="">
-                        <div class="two-texts">
-                            <h3>Jenny Villa</h3>
-                            <p>1 day ago</p>
-                        </div>
-                        <p>4 albums</p>
-                    </div>
+
                 </div>
-    
-                <div class="tracks-container">
-                    <h2>Tracks</h2>
-                    <div class="tracks scrolls">
-                        <div class="track">
-                            <img src="./assets/track1.jpg" alt="">
-                            <h3>Mahara Bon</h3>
-                            <p>Sexy in Paris</p>
-                        </div>
-                        <!--  -->
-                        <div class="track">
-                            <img src="./assets/track2.jpg" alt="">
-                            <h3>Mahara Bon</h3>
-                            <p>Sexy in Paris</p>
-                        </div>
-                        <!--  -->
-                        <div class="track">
-                            <img src="./assets/track3.jpg" alt="">
-                            <h3>Mahara Bon</h3>
-                            <p>Sexy in Paris</p>
-                        </div>
-                        <!--  -->
-                        <div class="track">
-                            <img src="./assets/track4.jpg" alt="">
-                            <h3>Mahara Bon</h3>
-                            <p>Sexy in Paris</p>
-                        </div>
-                        <!--  -->
-                        <div class="track">
-                            <img src="./assets/track5.jpg" alt="">
-                            <h3>Mahara Bon</h3>
-                            <p>Sexy in Paris</p>
-                        </div>
-                        <!--  -->
-                        <div class="track">
-                            <img src="./assets/track6.jpg" alt="">
-                            <h3>Mahara Bon</h3>
-                            <p>Sexy in Paris</p>
-                        </div>
-                        <!--  -->
-                        <div class="track">
-                            <img src="./assets/track7.jpg" alt="">
-                            <h3>Mahara Bon</h3>
-                            <p>Sexy in Paris</p>
-                        </div>
-                    </div>
+                <div class="tracks">
+
                 </div>
             </div>
         </section>
     </section>
 </body>
+
 </html>
