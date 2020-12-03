@@ -8,10 +8,11 @@ body, h2, h3, p, ul, a {
 
 body {
     background-image: linear-gradient(to right, #0c001f, #2b004d);
+    height: 100vh;
 }
 
 h2 {
-
+    margin-bottom: 12px;
 }
 
 p {
@@ -72,18 +73,10 @@ a {
     font-size: 1rem;
 }
 
-/* .left-bar p {
-    font-size: 1rem;
-} */
-
 .left-bar p:hover {
     color: #e5e5e59f;
     cursor: pointer;
 }
-
-/* #edit {
-    font-size: .8rem;
-} */
 
 .left-bar img {
     width: 60px;
@@ -114,22 +107,46 @@ a {
 /* //MAIN-CONTAINER// */
 
 .main-content {
-    width: auto;
-    /* height: 100vh; */
-    /* margin-top: 30px; */ /* It don't work*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+    align-content: space-between;
+    max-width: 1200px;
+    height: min-content;
     margin-left: 220px;
-    padding-top: 50px; /* "center" */
-    padding-left: 30px;
-    padding-right: 25px;
+    padding: 20px 20px 20px 35px;
+}
+
+/* MAIN-FORM */
+
+.main-form {
+    margin-bottom: 30px;
+}
+
+.main-form input {
+    width: 270px;
+    color: #e5e5e5e7;
+    border: none;
+    outline: none;
+    background-color: unset;
 }
 
 /* FEATURED PLAYLISTS */
+
+.featured-playlists {
+    height: min-content;
+    margin-bottom: 30px;
+}
 
 .playlists {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     column-gap: 15px;
+    padding-bottom: 10px;
     overflow-x: scroll;
 }
 
@@ -185,6 +202,7 @@ a {
 /* VIEW-ITEMS - "pink" */
 .views-items {
     display: flex;
+    align-items: center;
     margin-bottom: 15px;
 }
 
@@ -192,7 +210,7 @@ a {
 .views-items img {
     width: 45px;
     height: 45px;
-    border-radius: 6%;
+    border-radius: 3px;
     margin-right: 10px;
     object-fit: cover;
 }
@@ -215,15 +233,15 @@ a {
 /* TRACK-ITEMS - "pink" */
 
 .track-items {
-    margin-right: 5px;
+    margin-right: 10px;
     padding-bottom: 10px;
 }
 
 .track-items img {
-    width: 95px;
-    height: 95px;
-    border-radius: 8px;
-    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 @media (max-width: 990px) {
